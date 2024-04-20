@@ -27,6 +27,24 @@
       "compilerOptions": {
         "tsConfigPath": "apps/microservice/tsconfig.app.json"
       }
+    },
+    "microservice-rabit": {
+      "type": "application",
+      "root": "apps/microservice-rabit",
+      "entryFile": "main",
+      "sourceRoot": "apps/microservice-rabit/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/microservice-rabit/tsconfig.app.json"
+      }
+    },
+    "microservice-redis": {
+      "type": "application",
+      "root": "apps/microservice-redis",
+      "entryFile": "main",
+      "sourceRoot": "apps/microservice-redis/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/microservice-redis/tsconfig.app.json"
+      }
     }
   }
 }
